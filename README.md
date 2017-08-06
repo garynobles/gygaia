@@ -14,7 +14,7 @@ docker run -it --rm -v /p/KAP:/opt/data chambbj/pdal-noble-kernel pdal noble /op
 
 #create a polygon of common area to clip against the resulting pointcloud or original pointcloud
 // these commands calculte the bounds of the pointcloud.
-docker run -it --rm -v /p/KAP:/opt/data chambbj/pdal-noble-kernel pdal info opt/data/1.las --boundary
+docker run -it --rm -v /p/KAP:/opt/data chambbj/pdal-noble-kernel pdal info opt/data/1.las --boundary  
 docker run -it --rm -v /p/KAP:/opt/data chambbj/pdal-noble-kernel pdal info opt/data/2.las --boundary
 
 #combine
