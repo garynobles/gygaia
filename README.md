@@ -36,4 +36,4 @@ docker run -it --rm -v /p/KAP:/opt/data chambbj/pdal-noble-kernel pdal info opt/
 
 // test selecting objects in volumes
 
-// export columes as STL for 3D printing
+// export volumes as STL for 3D printing
